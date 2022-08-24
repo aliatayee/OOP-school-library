@@ -6,7 +6,8 @@ jobs:
   rubocop:
     name: Rubocop
     runs-on: ubuntu-18.04
-    
+    Style/FrozenStringLiteralComment:
+  Enabled: false
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-ruby@v1
