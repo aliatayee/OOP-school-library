@@ -1,4 +1,5 @@
 require './person'
+# class teacher inhereted person
 class Teacher < Person
   def initialize(specialization, age:, name: 'Unknown', parent_permission: true)
     super(name, age, parent_permission)
