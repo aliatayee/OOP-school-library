@@ -53,8 +53,6 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- (CoinRank Api)[https://rapidapi.com/Coinranking/api/coinranking1/]
-- Original Design Idea by: (Nelson Sakwa on Behance)[https://www.behance.net/sakwadesignstudio]
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
