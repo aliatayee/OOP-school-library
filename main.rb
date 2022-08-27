@@ -20,20 +20,20 @@ end
 def option(input)
   case input
   when '1'
-    list_all_books()
+    list_all_books
   when '2'
-    list_all_persons()
+    list_all_persons
   when '3'
-    create_person()
+    create_person
   when '4'
-    create_book()
+    create_book
   when '5'
-    create_rental()
+    create_rental
   when '6'
-    list_all_rentals()
+    list_all_rentals
   else
     puts 'Please enter a number between 1 and 7.'
   end
 end
 
-main()
+main
