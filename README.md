@@ -9,8 +9,6 @@ And all of these are built in a beautiful and well-organized way!
 
 ## Language & Technologies
 - [ ] Ruby
-### Demo
-Coming Soon..
 
 ### Getting Started
 
@@ -27,7 +25,12 @@ $ git clone https://github.com/aliatayee/OOP-school-library
 $ cd OOP-school-library
 ```
 
-- That is it!  
+- Then in terminal, run the following query:
+
+```
+$ ruby main.rb
+```
+-That is it!
 
 ## Run tests 
 To run the tests for linters locally, you must have bundle installed on your computer. Install the necessary packages. Run bundle install Run rubocop
