@@ -45,6 +45,13 @@ To run the tests for linters locally, you must have bundle installed on your com
 
 - GitHub: [@aliatayee](https://github.com/aliatayee)
 - Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aliatayee/)
+
+👤 **Victor David**
+
+- GitHub: [@githubhandle](https://github.com/jheart-vic)
+- Twitter: [@twitterhandle](https://twitter.com/Victorjheart)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-302a97230/)
 
 
 ## 🤝 Contributing
