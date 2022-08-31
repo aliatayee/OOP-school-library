@@ -4,6 +4,7 @@ class CapitalizeDecorator < BaseDecorator
     super()
     @nameable = nameable
   end
+
   def correct_name
     # Capitalize the first letter of the given name.
     @nameable.correct_name.capitalize
