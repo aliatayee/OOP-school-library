@@ -16,8 +16,8 @@ describe ClassRoom do
     end
 
     it 'should have a student' do
-      studentObj = classroom.students.first
-      expect(studentObj.name).to eq(student.name)
+      student_obj = classroom.students.first
+      expect(student_obj.name).to eq(student.name)
     end
   end
 end
