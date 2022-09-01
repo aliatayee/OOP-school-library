@@ -17,6 +17,6 @@ describe Student do
     end
     it 'Person play_hooky should return nil' do
       expect(student.play_hooky).to eq "¯\(ツ)/¯"
-    end 
+    end
   end
 end
