@@ -9,5 +9,8 @@ describe Teacher do
     it 'Teacher name should return Ali ali' do
       expect(teacher.name).to eq 'Ali ali'
     end
+    it 'Person can_use_services should return true' do
+      expect(teacher.can_use_services?).to be true
+    end
   end
 end

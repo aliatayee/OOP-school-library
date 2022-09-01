@@ -3,7 +3,7 @@ require './rental'
 # Class person with informations
 class Person < Nameable
   attr_reader :id
-  attr_accessor :name, :age, :rentals
+  attr_accessor :name, :age, :rentals, :parent_permission
 
   def initialize(age, name = 'Unknown', parent_permission: true)
     super()
