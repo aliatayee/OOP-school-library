@@ -3,7 +3,7 @@ require './book'
 require './rental'
 
 describe Person do
-  context 'test Person class' do
+  context 'Test Person class' do
     person = Person.new(24, 'Mechael Obama')
     person2 = Person.new(24)
     person3 = Person.new(13, 'Ahmad', parent_permission: false)
