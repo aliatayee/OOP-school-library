@@ -6,7 +6,7 @@ describe Person do
   context 'test Person class' do
     person = Person.new(24, 'Mechael Obama')
     person2 = Person.new(24)
-    person3 = Person.new(13,'Ahmad', parent_permission: false)
+    person3 = Person.new(13, 'Ahmad', parent_permission: false)
     book = Book.new('Becoming', 'Mechael Obama')
     rental = Rental.new('2022-05-13', person, book)
     it 'Book title should return Becoming' do
