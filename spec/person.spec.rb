@@ -1,11 +1,18 @@
 require './person'
+require './book'
+require './rental'
 
 describe Person do
   context 'test Person class' do
     person = Person.new(24, 'Mechael Obama')
     person2 = Person.new(24)
-    it 'Person age should return 24' do
-      expect(person.age).to eq 24
+    book = Book.new('Becoming', 'Mechael Obama')
+    rental = Rental.new('2022-05-13', person, book)
+    it 'Book title should return Becoming' do
+      expect(rental.book.title).to eq 'Becoming'
+    end
+    it 'Person name should return Mechael Obama' do
+      expect(rental.person.name).to eq 'Mechael Obama'
     end
     it 'Person name should return Mechael Obama' do
       expect(person.name).to eq 'Mechael Obama'
